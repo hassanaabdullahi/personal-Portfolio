@@ -341,7 +341,6 @@ export const projects: Project[] = [
     ],
     links: {
       dataset: "/projects/fmcg-2024/fmcg_sales.csv",
-      guide: "/projects/fmcg-2024/powerbi_step_by_step.md",
       pbix: "/projects/fmcg-2024/Fcmg Sales dashboard 2024.pbit",
     },
     screenshots: [
