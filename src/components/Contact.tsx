@@ -29,7 +29,7 @@ export function Contact() {
           className="mt-8 flex flex-wrap justify-center gap-3"
         >
           <Link
-            href="mailto:hassana@example.com"
+            href="mailto:hassanaabdll1@gmail.com"
             className="group inline-flex h-12 items-center gap-2 rounded-xl border border-border bg-card px-5 text-sm font-medium text-foreground transition-all hover:bg-muted"
           >
             <Mail className="size-4" />
@@ -37,7 +37,7 @@ export function Contact() {
             <ArrowUpRight className="size-3.5 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
           <Link
-            href="https://linkedin.com/in/hassanabdullahi"
+            href="https://www.linkedin.com/in/hassana-abdullahi-858040240/"
             target="_blank"
             className="group inline-flex h-12 items-center gap-2 rounded-xl border border-border bg-card px-5 text-sm font-medium text-foreground transition-all hover:bg-muted"
           >
@@ -46,12 +46,23 @@ export function Contact() {
             <ArrowUpRight className="size-3.5 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
           <Link
-            href="https://github.com/hassanabdullahi"
+            href="https://github.com/hassanaabdullahi"
             target="_blank"
             className="group inline-flex h-12 items-center gap-2 rounded-xl border border-border bg-card px-5 text-sm font-medium text-foreground transition-all hover:bg-muted"
           >
             <GithubIcon className="size-4" />
             GitHub
+            <ArrowUpRight className="size-3.5 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          </Link>
+          <Link
+            href="https://x.com/techSultana"
+            target="_blank"
+            className="group inline-flex h-12 items-center gap-2 rounded-xl border border-border bg-card px-5 text-sm font-medium text-foreground transition-all hover:bg-muted"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" className="size-4">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+            X / Twitter
             <ArrowUpRight className="size-3.5 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
           <Link

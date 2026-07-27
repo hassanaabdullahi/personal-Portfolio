@@ -12,7 +12,7 @@ export function Footer() {
           </p>
           <div className="flex items-center gap-3">
             <Link
-              href="https://github.com/hassanabdullahi"
+              href="https://github.com/hassanaabdullahi"
               target="_blank"
               className="rounded-lg p-2 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
               aria-label="GitHub"
@@ -20,7 +20,7 @@ export function Footer() {
               <GithubIcon className="size-4" />
             </Link>
             <Link
-              href="https://linkedin.com/in/hassanabdullahi"
+              href="https://www.linkedin.com/in/hassana-abdullahi-858040240/"
               target="_blank"
               className="rounded-lg p-2 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
               aria-label="LinkedIn"
@@ -28,7 +28,17 @@ export function Footer() {
               <LinkedinIcon className="size-4" />
             </Link>
             <Link
-              href="mailto:hassana@example.com"
+              href="https://x.com/techSultana"
+              target="_blank"
+              className="rounded-lg p-2 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+              aria-label="X / Twitter"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" className="size-4">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </Link>
+            <Link
+              href="mailto:hassanaabdll1@gmail.com"
               className="rounded-lg p-2 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
               aria-label="Email"
             >

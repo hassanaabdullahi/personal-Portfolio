@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "Hassana Abdullahi | Data Analyst & Frontend Engineer",
   description:
     "Entry-Level Data Analyst & Frontend Engineer. Building user experiences. Exploring business insights. Growing one project at a time.",
+  icons: {
+    icon: "/avatar.png",
+  },
   openGraph: {
     title: "Hassana Abdullahi | Data Analyst & Frontend Engineer",
     description:

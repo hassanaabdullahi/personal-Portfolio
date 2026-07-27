@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { ProjectCard } from "./ProjectCard"
 import { projects } from "@/data/projects"
 
-const categories = ["All", "Data Analysis", "Frontend Engineering"]
+const categories = ["All", "Data Analysis"]
 
 export function Projects() {
   const [active, setActive] = useState("All")

@@ -42,7 +42,7 @@ export const projects: Project[] = [
     tools: ["Excel", "Power Query", "Pivot Tables", "Power BI", "DAX", "Data Cleaning"],
     image: "/projects/fmcg-2025/preview_1.png",
     category: "Data Analysis",
-    year: "2025",
+    year: "2026",
     role: "Data Analyst",
     duration: "3 weeks",
     datasetOverview: {
@@ -254,10 +254,10 @@ export const projects: Project[] = [
       "Sales directors at Nigerian FMCG companies often lack a single, consolidated view of their business. Data is scattered across regions and channels, making it hard to answer: Which regions drive revenue? Which channels underperform? Where is stockout risk highest? What is the true profit margin per category? Without a clear picture, strategic decisions are based on intuition rather than data.",
     objective:
       "To build a single-page Power BI dashboard that surfaces the most critical sales metrics — revenue, profit, units sold, and stockout rate — at a glance, while enabling drill-down by region, channel, category, and month for deeper analysis.",
-    tools: ["Excel", "Power BI", "DAX", "Data Visualization", "Data Cleaning"],
+    tools: ["Excel", "Power Query", "Power BI", "DAX", "Data Visualization", "Data Cleaning"],
     image: "/projects/fmcg-2024/00_dashboard_cover.png",
     category: "Data Analysis",
-    year: "2024",
+    year: "2026",
     role: "Data Analyst",
     duration: "2 weeks",
     datasetOverview: {
