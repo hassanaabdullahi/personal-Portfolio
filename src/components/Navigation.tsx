@@ -22,12 +22,15 @@ export function Navigation() {
       <div className="absolute inset-0 border-b border-border bg-background/80 backdrop-blur-xl" />
       <nav className="relative mx-auto flex h-full max-w-5xl items-center justify-between px-4">
         <Link href="/" className="text-lg font-semibold tracking-tight">
-          <Typewriter
-            texts={["Hassana"]}
-            speed={100}
-            pauseDuration={999999}
-            cursorClassName="text-primary"
-          />
+          <span className="inline-flex">
+            <Typewriter
+              texts={["Hassana"]}
+              speed={120}
+              deleteSpeed={60}
+              pauseDuration={3000}
+              cursorClassName="text-primary"
+            />
+          </span>
         </Link>
 
         <div className="hidden items-center gap-1 md:flex">
