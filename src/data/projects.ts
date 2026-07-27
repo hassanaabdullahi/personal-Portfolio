@@ -356,7 +356,7 @@ export const blogPosts = [
     slug: "cleaning-20000-rows",
     title: "Cleaning 20,000 Rows of Sales Data",
     excerpt: "What I learned cleaning a real-world FMCG dataset — missing values, duplicates, date validation, and why dirty data is actually a gift for beginners.",
-    date: "2025-12-15",
+    date: "2026-07-20",
     readTime: "8 min read",
     tags: ["Data Cleaning", "Excel", "Power Query"],
     content: `
@@ -393,7 +393,7 @@ Cleaning 20,000 rows took me 3 days. It was tedious. But it taught me more about
     slug: "first-dashboard-lessons",
     title: "What I Learned Building My First Dashboard",
     excerpt: "From scattered Excel files to an interactive Power BI dashboard — the mistakes I made, the design principles I discovered, and what I'd do differently.",
-    date: "2025-11-20",
+    date: "2026-07-27",
     readTime: "6 min read",
     tags: ["Power BI", "Dashboard Design", "Data Visualization"],
     content: `
@@ -426,7 +426,7 @@ My dashboard isn't perfect, but my second attempt was significantly better than 
     slug: "why-data-cleaning-matters",
     title: "Why Data Cleaning Matters More Than Analysis",
     excerpt: "Garbage in, garbage out is not a cliché — it's the most important lesson in data analytics. Here's why cleaning deserves more respect.",
-    date: "2025-10-10",
+    date: "2026-04-30",
     readTime: "5 min read",
     tags: ["Data Cleaning", "Best Practices"],
     content: `
@@ -457,7 +457,7 @@ Data cleaning isn't glamorous, but it's the foundation that every good analysis 
     slug: "journey-frontend-to-data",
     title: "My Journey from Frontend Engineering to Data Analytics",
     excerpt: "Why a frontend engineer started asking questions about data — and how building products led me to analyze them.",
-    date: "2025-09-05",
+    date: "2026-09-05",
     readTime: "7 min read",
     tags: ["Career", "Personal", "Data Analytics"],
     content: `
