@@ -66,7 +66,7 @@ export function Contact() {
             <ArrowUpRight className="size-3.5 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
           <Link
-            href="/resume.pdf"
+            href="/Hassana_Abdullahi_DataAnalyst_Resume.pdf"
             download
             className="group inline-flex h-12 items-center gap-2 rounded-xl bg-primary px-5 text-sm font-medium text-primary-foreground transition-all hover:brightness-110"
           >

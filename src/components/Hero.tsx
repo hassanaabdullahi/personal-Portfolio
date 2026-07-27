@@ -53,17 +53,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-6 text-xl text-muted-foreground sm:text-2xl"
         >
-          <Typewriter
-            texts={[
-              "Entry-Level Data Analyst & Frontend Engineer",
-              "Entry-Level Data Analyst",
-              "Frontend Engineer",
-            ]}
-            speed={50}
-            deleteSpeed={20}
-            pauseDuration={4000}
-            cursorClassName="text-primary"
-          />
+          <span className="font-semibold text-foreground">Data Analyst</span>
         </motion.p>
 
         <motion.p
@@ -72,7 +62,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mt-4 max-w-xl mx-auto text-base leading-relaxed text-muted-foreground"
         >
-          Building user experiences. Exploring business insights. Growing one project at a time.
+          I&apos;m an Entry-Level Data Analyst with a Frontend Engineering background. I am driven by curiosity and continuous learning. I enjoy transforming raw data into meaningful insights while building intuitive digital experiences that solve real-world problems.
         </motion.p>
 
         <motion.div
@@ -89,7 +79,7 @@ export function Hero() {
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
           </Link>
           <Link
-            href="/resume.pdf"
+            href="/Hassana_Abdullahi_DataAnalyst_Resume.pdf"
             download
             className="group inline-flex h-12 items-center gap-2 rounded-xl border border-border bg-card px-6 text-sm font-medium text-foreground transition-all hover:bg-muted"
           >
