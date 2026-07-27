@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.75rem;
+  --background: #fafafa;
+  --foreground: #1a1a2e;
+  --primary: #e8a0bf;
+  --primary-foreground: #1a1a2e;
+  --secondary: #f3d4e0;
+  --secondary-foreground: #1a1a2e;
+  --muted: #f1f1f5;
+  --muted-foreground: #6b6b80;
+  --accent: #f3d4e0;
+  --accent-foreground: #1a1a2e;
+  --card: #ffffff;
+  --card-foreground: #1a1a2e;
+  --border: #e5e5ec;
+  --ring: #e8a0bf;
+}
+
+.dark {
+  --background: #0c0c14;
+  --foreground: #f0f0f5;
+  --primary: #e8a0bf;
+  --primary-foreground: #0c0c14;
+  --secondary: #2a1a2e;
+  --secondary-foreground: #f0f0f5;
+  --muted: #161622;
+  --muted-foreground: #8a8a9e;
+  --accent: #2a1a2e;
+  --accent-foreground: #f0f0f5;
+  --card: #12121c;
+  --card-foreground: #f0f0f5;
+  --border: #252535;
+  --ring: #e8a0bf;
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background-color: rgba(232, 160, 191, 0.3);
+  color: var(--foreground);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-20px) rotate(1deg); }
+  66% { transform: translateY(10px) rotate(-1deg); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes scroll-indicator {
+  0%, 100% { transform: translateY(0); opacity: 0.6; }
+  50% { transform: translateY(8px); opacity: 1; }
+}
